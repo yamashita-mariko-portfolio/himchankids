@@ -16,23 +16,3 @@ $(function () {
         },
     });
 });
-
-AOS.init({
-    duration: 1200 //aos 나타나는 속도
-});
-
-$(window).scroll(function () {
-    var height = $(window).scrollTop();
-    if (height > 5200) {
-        $('.main').fadeIn();
-    } else {
-        $('.main').fadeOut();
-    }
-
-    var height2 = $(window).scrollTop();
-    if (height2 > 6800) {
-        $('.sub1').fadeIn();
-    } else {
-        $('.sub1').fadeOut();
-    }
-});
