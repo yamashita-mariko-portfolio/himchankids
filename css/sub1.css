@@ -1,0 +1,475 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'NanumSquareNeo';
+    font-size: 20px;
+    color: #260F01;
+    line-height: 24px;
+    min-width: 1320px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #260F01;
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    width: 1320px;
+    margin: 20px auto 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu1 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end
+}
+
+.menu1 a {
+    padding-left: 15px;
+}
+
+.lupe {
+    padding-top: 5px;
+}
+
+.menu2 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.menu2 a {
+    padding-left: 25px;
+    color: #4C1F01;
+}
+
+.menu2 a:hover {
+    color: #9A6C4F;
+
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    z-index: 100;
+}
+
+/* contents */
+.con {
+    display: block;
+}
+
+/* 모이스처 케어라인 */
+.fo1_l{
+    position: absolute;
+    top: -34px;
+    left: 280px;   
+}
+
+.fo1_r{
+    position: absolute;
+    top: -34px;
+    left: 937px;   
+}
+
+/* 꽃1 왼쪽 */
+@keyframes fo1_l{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-20deg);}
+}
+
+.fo1_l{animation: fo1_l 1s infinite alternate ease-in-out;}
+
+.fo1_l{
+    transform-origin: center ;
+}
+
+/* 꽃1 오른쪽쪽 */
+@keyframes fo1_r{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(20deg);}
+}
+
+.fo1_r{animation: fo1_r 1s infinite alternate ease-in-out;}
+
+.fo1_r{
+    transform-origin: center  ;
+}
+/* 꽃 끝 */
+
+.moist {
+    width: 1320px;
+    margin: 150px auto;
+    position: relative;
+    
+}
+
+.con h1 {
+    color: #371803;
+    text-align: center;
+    padding: 20px 0 100px;
+    font-size: 45px;
+    font-family: 'Jalnan';
+}
+
+.moist_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.moist_in li {
+    position: relative;
+}
+
+.label_1 {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+}
+
+.yeobeg {
+    margin-bottom: 10px;
+}
+
+.yeobeg2 {
+    margin-bottom: 50px;
+}
+
+.span1 {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #5A5858;
+    font-weight: 500;
+}
+
+.span2 {
+    color: #FF5104;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.moist_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.moist_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* 인텐시브 케어라인 */
+.inten_out {
+    background: url(../images/sub1/back_yellow1new.png) no-repeat;
+    height: 2151px;
+}
+
+.fw1_l{
+    position: absolute;
+    top: 192px;
+    left: 280px;   
+}
+
+.fw1_r{
+    position: absolute;
+    top: 192px;
+    left: 937px;   
+}
+
+/* 꽃2 왼쪽 */
+@keyframes fw1_l{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-20deg);}
+}
+
+.fw1_l{animation: fw1_l 1s infinite alternate ease-in-out;}
+
+.fw1_l{
+    transform-origin: center ;
+}
+
+/* 꽃2 오른쪽쪽 */
+@keyframes fw1_r{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(20deg);}
+}
+
+.fw1_r{animation: fw1_r 1s infinite alternate ease-in-out;}
+
+.fw1_r{
+    transform-origin: center  ;
+}
+/* 꽃 끝 */
+
+
+.inten {
+    width: 1320px;
+    margin: 170px auto;
+    padding: 230px 0;
+    position: relative;
+}
+
+
+
+.inten_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.inten_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.inten_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* 선물세트 */
+.fo2_l{
+    position: absolute;
+    top: -16px;
+    left: 254px;   
+}
+
+.fo2_r{
+    position: absolute;
+    top: -16px;
+    left: 935px;   
+}
+
+/* 꽃3 왼쪽 */
+@keyframes fo2_l{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-20deg);}
+}
+
+.fo2_l{animation: fo2_l 1s infinite alternate ease-in-out;}
+
+.fo2_l{
+    transform-origin: center ;
+}
+
+/* 꽃3 오른쪽쪽 */
+@keyframes fo2_r{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(20deg);}
+}
+
+.fo2_r{animation: fo2_r 1s infinite alternate ease-in-out;}
+
+.fo2_r{
+    transform-origin: center;
+}
+/* 꽃 끝 */
+
+.pre {
+    width: 1320px;
+    margin: 170px auto;
+    position: relative;
+   
+}
+
+.pre_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pre_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pre_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* NEW */
+.new_out{
+    background: url(../images/sub1/back_yellow2new.png) no-repeat;
+    height: 1394px;
+    padding: 230px 0 0;
+   box-sizing: border-box;
+}
+
+.fw2_l{
+    position: absolute;
+    top: -12px;
+    left: 459px;   
+}
+
+.fw2_r{
+    position: absolute;
+    top: -12px;
+    left: 732px;   
+}
+
+/* 꽃4 왼쪽 */
+@keyframes fw2_l{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-20deg);}
+}
+
+.fw2_l{animation: fw2_l 1s infinite alternate ease-in-out;}
+
+.fw2_l{
+    transform-origin: center ;
+}
+
+/* 꽃4 오른쪽쪽 */
+@keyframes fw2_r{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(20deg);}
+}
+
+.fw2_r{animation: fw2_r 1s infinite alternate ease-in-out;}
+
+.fw2_r{
+    transform-origin: center;
+}
+/* 꽃 끝 */
+
+.new {
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.new_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+.new_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.new_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* footer */
+.footer {
+    background-color: #FEB62E;
+    padding: 60px 0 100px;
+}
+
+.footer_in {
+    width: 1320px;
+    margin: auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_left ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.f_left ul a {
+    margin-left: 14px;
+}
+
+.f_left a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.f_right a,
+.f_right p {
+    color: #4C1F01;
+}
+
+.f_right ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.f_right p {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* top 버튼 */
+.top_o {
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    z-index: 99;
+}
+
+.top_w {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}

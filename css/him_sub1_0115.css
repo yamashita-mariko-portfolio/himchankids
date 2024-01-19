@@ -1,0 +1,381 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'NanumSquareNeo';
+    font-size: 20px;
+    color: #260F01;
+    line-height: 24px;
+    min-width: 1320px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #260F01;
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    width: 1320px;
+    margin: 20px auto 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu1 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end
+}
+
+.menu1 a {
+    padding-left: 15px;
+}
+
+.lupe {
+    padding-top: 5px;
+}
+
+.menu2 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.menu2 a {
+    padding-left: 25px;
+    color: #4C1F01;
+}
+
+.menu2 a:hover {
+    color: #9A6C4F;
+
+}
+
+/* contents */
+.con {
+    display: block;
+}
+
+/* 모이스처 케어라인 */
+.fo1_l{
+    position: absolute;
+    top: -34px;
+    left: 280px;   
+}
+
+.fo1_r{
+    position: absolute;
+    top: -34px;
+    left: 937px;   
+}
+
+@keyframes fo1_l{
+    0%{transform: rotate(0deg);}
+    100%{transform: rotate(-10deg);}
+}
+
+.fo1_l{
+    transform-origin: right bottom;
+}
+
+/* .fo1_l:hover{ 
+    animation: s3 0.5s 2 alternate;
+}*/
+
+.moist {
+    width: 1320px;
+    margin: 150px auto;
+    position: relative;
+    
+}
+
+.con h1 {
+    color: #371803;
+    text-align: center;
+    padding: 20px 0 100px;
+    font-size: 45px;
+    font-family: 'Jalnan';
+}
+
+.moist_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.moist_in li {
+    position: relative;
+}
+
+.label_1 {
+    position: absolute;
+    z-index: 1;
+    left: 30px;
+}
+
+.yeobeg {
+    margin-bottom: 10px;
+}
+
+.yeobeg2 {
+    margin-bottom: 50px;
+}
+
+.span1 {
+    font-size: 12px;
+    text-decoration: line-through;
+    color: #5A5858;
+    font-weight: 500;
+}
+
+.span2 {
+    color: #FF5104;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.moist_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.moist_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* 인텐시브 케어라인 */
+.inten_out {
+    background: url(../images/sub1/back_yellow1new.png) no-repeat;
+    height: 2151px;
+}
+
+.fw1_l{
+    position: absolute;
+    top: 192px;
+    left: 280px;   
+}
+
+.fw1_r{
+    position: absolute;
+    top: 192px;
+    left: 937px;   
+}
+
+.inten {
+    width: 1320px;
+    margin: 170px auto;
+    padding: 230px 0;
+    position: relative;
+}
+
+
+
+.inten_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.inten_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.inten_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* 선물세트 */
+.fo2_l{
+    position: absolute;
+    top: -33px;
+    left: 254px;   
+}
+
+.fo2_r{
+    position: absolute;
+    top: -33px;
+    left: 935px;   
+}
+
+.pre {
+    width: 1320px;
+    margin: 170px auto;
+    position: relative;
+   
+}
+
+.pre_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    
+   
+    
+}
+
+.pre_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.pre_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* NEW */
+.new_out{
+    background: url(../images/sub1/back_yellow2new.png) no-repeat;
+    height: 1394px;
+    padding: 230px 0 0;
+   box-sizing: border-box;
+}
+
+.fw2_l{
+    position: absolute;
+    top: -29px;
+    left: 461px;   
+}
+
+.fw2_r{
+    position: absolute;
+    top: -29px;
+    left: 732px;   
+}
+
+.new {
+    width: 1320px;
+    margin: 50px auto;
+    position: relative;
+}
+
+.new_in {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+}
+
+.new_in2 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.new_setsu {
+    font-size: 16px;
+    margin: 4px 0;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+/* footer */
+.footer {
+    background-color: #FEB62E;
+    padding: 60px 0 100px;
+}
+
+.footer_in {
+    width: 1320px;
+    margin: auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_left ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.f_left ul a {
+    margin-left: 14px;
+}
+
+.f_left a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.f_right a,
+.f_right p {
+    color: #4C1F01;
+}
+
+.f_right ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.f_right p {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* top 버튼 */
+.top_o {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+
+.top_w {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}

@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'NanumSquareNeo';
+    font-size: 20px;
+    color: #260F01;
+    line-height: 24px;
+    min-width: 1320px;
+    
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: #260F01;
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    width: 1320px;
+    margin: 20px auto 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu {
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.menu1 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end
+}
+
+.menu1 a {
+    padding-left: 15px;
+}
+
+.lupe {
+    padding-top: 5px;
+}
+
+.menu2 {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.menu2 a {
+    padding-left: 25px;
+    color: #4C1F01;
+}
+
+.menu2 a:hover {
+    color: #9A6C4F;
+
+}
+
+/* banner_brand_promise */
+.banner{
+    width: 100%;
+}
+
+/* contents_brand */
+.con1{
+    width: 1320px;
+    margin: 150px auto;
+}
+
+
+
+
+
+
+
+
+
+/* banner_brand */
+
+
+
+
+
+
+/* footer */
+.footer {
+    background-color: #FEB62E;
+    padding: 60px 0 100px;
+}
+
+.footer_in {
+    width: 1320px;
+    margin: auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+.f_left ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.f_left ul a {
+    margin-left: 14px;
+}
+
+.f_left a {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.f_right a,
+.f_right p {
+    color: #4C1F01;
+}
+
+.f_right ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.f_right p {
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+
+/* top 버튼 */
+.top_o {
+    position: fixed;
+    right: 20px;
+    bottom: 50px;
+}
+
+.top_w {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
