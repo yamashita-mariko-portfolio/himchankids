@@ -35,4 +35,11 @@ $(window).scroll(function () {
     } else {
         $('.sub1').fadeOut();
     }
+
+    var height2 = $(window).scrollTop();
+    if (height2 > 7100) {
+        $('.sub2').fadeIn();
+    } else {
+        $('.sub2').fadeOut();
+    }
 });
