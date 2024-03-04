@@ -37,7 +37,7 @@ $(window).scroll(function () {
     }
 
     var height2 = $(window).scrollTop();
-    if (height2 > 7100) {
+    if (height2 > 7000) {
         $('.sub2').fadeIn();
     } else {
         $('.sub2').fadeOut();
